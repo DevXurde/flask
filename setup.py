@@ -8,6 +8,9 @@ setup(
         "Jinja2 >= 3.0",
         "itsdangerous >= 2.0",
         "click >= 8.0",
+        "Flask-Login==0.5.0",
+        "Flask-Mail==0.9.1",
+        "Flask-SQLAlchemy==2.5.1"
     ],
     extras_require={
         "async": ["asgiref >= 3.2"],
