@@ -8,9 +8,12 @@ setup(
         "Jinja2 >= 3.0",
         "itsdangerous >= 2.0",
         "click >= 8.0",
+        "flask-login",
+        "flask-mail",
+        "flask-sqlalchemy"
     ],
     extras_require={
         "async": ["asgiref >= 3.2"],
-        "dotenv": ["python-dotenv"],
+        "dotenv": ["python-dotenv"]
     },
 )
